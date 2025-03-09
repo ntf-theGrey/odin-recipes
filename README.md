@@ -1,1 +1,2 @@
 # odin-recipes
+A website to practice and showcase my basic HTML skills. The theme is cooking recipes, featuring simple, easy-to-follow recipes. It will include headings, paragraphs, lists, images, and links to demonstrate my HTML knowledge.
