@@ -1,0 +1,28 @@
+body {
+    background-color: #333;
+    color: #aaa;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link:link,
+.link:visited {
+    color: #999;
+}
+
+.link:hover,
+.link:active {
+    color: #ffaaaa;
+}
+
+.title {
+    color: #ffaaaa;
+}
+
+img {
+    width: 500px;
+    height: auto;
+}
