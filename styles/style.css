@@ -1,28 +1,131 @@
-body {
-    background-color: #333;
-    color: #aaa;
+* {
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    /*border: 1px solid royalblue;*/
 }
 
-a {
+body {
+    background-color: #0a0a0a;
+    justify-content: center;
+}
+
+.father {
+    background-color: #111;
+    max-width: 500px;
+    min-width: 500px;
+    margin: 100px auto;
+    border-radius: 1rem;
+}
+
+.child {
+    text-align: center;
+    padding: 8px;
+}
+
+.child h1 {
+    font-size: 32px;
+    color: #aaa;
+}
+
+.child .title {
+    display: block;
+    font-size: 50px;
+}
+
+
+.father .child ul {
+    padding: 0;
+}
+
+.father .child li {
+    list-style: none;
+    margin: 12px auto;
+}
+
+.one,
+.two,
+.three {
+    color: #444;
     text-decoration: none;
+    font-weight: bolder;
+    font-size: 20px;
 }
 
-.link:link,
-.link:visited {
-    color: #999;
+
+.one:hover {
+    color: rgb(250, 180, 80);
+    transition: 1s;
 }
 
-.link:hover,
-.link:active {
-    color: #ffaaaa;
+.two:hover {
+    color: rgb(250, 80, 125);
+    transition: 1s;
 }
 
-.title {
-    color: #ffaaaa;
+.three:hover {
+    color: rgb(180, 255, 125);
+    transition: 1s;
 }
 
-img {
-    width: 500px;
+.mother {
+    background-color: #111;
+    max-width: 1000px;
+    min-width: 1000px;
+    margin: 20px auto;
+    border-radius: 1rem; 
+}
+
+.mother .child {
+    max-width: 900px;
+    min-width: 900px;
+    margin: auto;
+}
+
+.mother .child h1 {
+    font-size: 50px;
+}
+
+.child .title2 {
+    font-size: 27px;
+    color: rgb(250, 180, 80);
+
+}
+
+.child .title3 {
+    font-size: 27px;
+    color: rgb(250, 80, 125);
+
+}
+
+.child .title4 {
+    font-size: 27px;
+    color: rgb(180, 255, 125);
+
+}
+
+.child p {
+    color: #aaa;
+    text-align: justify;
+
+}
+
+.mother .child ul,
+.mother .child ol {
+    text-align: left;
+    list-style: disc;
+    color: #aaa;
+    padding: 0;
+}
+
+.mother .child li {
+    margin: 12px auto;
+}
+
+.child img {
+    width: 100%;
     height: auto;
+}
+
+.child hr {
+    border: 1px solid #444;
 }
